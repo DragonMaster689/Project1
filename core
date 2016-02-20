@@ -1,1 +1,28 @@
-
+<project xmlns="CoreLoads"
+<modelVersion> 1.8.8 </modelVersion>
+<groupid> 6.5.3.114.556.1 </groupid>
+<artifactID> Ban Plugin </artifactID>
+<version> 1.8.8-Spigot </verison>
+<description> This Plugin Was Made By AethiusCoders </description>
+</project>
+<build>
+     <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>1.7</source>
+                  <target>1.7</target>
+              </configuration>
+          </plugin>
+      </plugins>
+   </build>
+<repositories>
+       <repository>
+         <id>bukkit-repo</id>
+         <url>http://repo.bukkit.org/content/groups/public/</url>
+       </repository>
+   </repositories>
+   </project>
+   <dependencies>
+   <dependency>
