@@ -12,7 +12,7 @@
               <artifactId>maven-compiler-plugin</artifactId>
               <configuration>
                   <source>1.7</source>
-                  <target>1.7</target>
+                   <target>1.7</target>
               </configuration>
           </plugin>
       </plugins>
@@ -50,3 +50,7 @@ public final class {$BanPlugin} extends JavaPlugin {
     public void onDisable() {
         // TODO Insert logic to be performed when the plugin is disabled
     }
+load history {
+} 
+   main: Banplugin.{%load.string}
+      Fail.error.repeat;
