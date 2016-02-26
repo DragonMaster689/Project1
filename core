@@ -1,0 +1,56 @@
+<project xmlns="CoreLoads"
+<modelVersion> 1.8.8 </modelVersion>
+<groupid> 6.5.3.114.556.1 </groupid>
+<artifactID> Ban Plugin </artifactID>
+<version> 1.8.8-Spigot </verison>
+<description> This Plugin Was Made By AethiusCoders </description>
+</project>
+<build>
+     <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>1.7</source>
+                   <target>1.7</target>
+              </configuration>
+          </plugin>
+      </plugins>
+   </build>
+<repositories>
+       <repository>
+         <id>bukkit-repo</id>
+         <url>http://repo.bukkit.org/content/groups/public/</url>
+        </repository>
+       </repositories>
+    </project>
+     <dependencies>
+         <dependency>
+     package {$GroupName}.{$ArtifactName};
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public final class {$ArtifactName} extends JavaPlugin {
+    
+}
+name: {$BanPlugin}
+main: {$Ban}.{$BanPlugin}
+version: {$1.8.8-Spigot}
+package {$TopLevelDomain}.{$Domain}.{$BanPlugin};
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public final class {$BanPlugin} extends JavaPlugin {
+    @Override
+    public void onEnable() {
+        // TODO Insert logic to be performed when the plugin is enabled
+    }
+    
+    @Override
+    public void onDisable() {
+        // TODO Insert logic to be performed when the plugin is disabled
+    }
+load history {
+} 
+   main: Banplugin.{%load.string}
+      Fail.error.repeat;
